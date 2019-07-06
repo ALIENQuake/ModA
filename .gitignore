@@ -11,15 +11,15 @@ tmp/
 
 *.bak
 *.bat
+*.exe
 *.tmp
-*.lnk
-Thumbs.db
-ehthumbs.db
 
 *.7z
 *.rar
 *.zip
-*.tar.gz
+*.tar*
+
+*.iemod
 
 .DS_Store
 .AppleDouble
@@ -27,4 +27,5 @@ ehthumbs.db
 .AppleDB
 .AppleDesktop
 .apdisk
-
+ehthumbs.db
+Thumbs.db
