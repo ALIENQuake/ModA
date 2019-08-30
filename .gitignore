@@ -13,10 +13,11 @@ ehthumbs.db
 
 *.bak
 *.bat
-*.tmp
+*.iemod
 *.lnk
 *.rar
 *.tar*
+*.tmp
 *.zip
 
 /\#ModRelease/\#ModRelease-Github-Key.txt
