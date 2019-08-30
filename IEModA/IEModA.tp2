@@ -1,10 +1,9 @@
-BACKUP "IEModA\backup"
+ BACKUP "IEModA\backup"
 SUPPORT "IEModA"
 VERSION "1.0.0"
 
 BEGIN "MainComponent" LABEL "IEModA-MainComponent" DESIGNATED 1000
+    NO_LOG_RECORD
 
-ACTION_IF GAME_IS "bgee bg2ee eet" THEN BEGIN
-    OUTER_SET ID = ID_OF_LABEL "IEModA.tp2" "IEModA"
+    OUTER_SET ID = ID_OF_LABEL "IEModA.tp2" "IEModA-MainComponent"
     PRINT "%ID%"
-END
