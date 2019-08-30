@@ -1,6 +1,6 @@
  BACKUP "IEModA\backup"
 SUPPORT "IEModA"
-VERSION "1.1.0"
+VERSION "1.1.1"
 
 BEGIN "MainComponent" LABEL "IEModA-MainComponent" DESIGNATED 1000
 
@@ -8,9 +8,10 @@ BEGIN "MainComponent" LABEL "IEModA-MainComponent" DESIGNATED 1000
     PRINT "%ID%"
 
 BEGIN "ExtraComponent" LABEL "IEModA-ExtraComponent" DESIGNATED 2000
+
     ACTION_IF MOD_IS_INSTALLED "IEModA.tp2" (ID_OF_LABEL "IEModA.tp2" "IEModA-MainComponent") BEGIN
-    OUTER_SET ID = ID_OF_LABEL "IEModA.tp2" "IEModA-ExtraComponent"
-    PRINT "%ID%"
+        OUTER_SET ID = ID_OF_LABEL "IEModA.tp2" "IEModA-ExtraComponent"
+        PRINT "%ID%"
     END ELSE BEGIN
         ABORT "Require IEModA-MainComponent"
     END
