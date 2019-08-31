@@ -1,6 +1,6 @@
  BACKUP "IEModA\backup"
 SUPPORT "IEModA"
-VERSION "1.1.1"
+VERSION "1.2.0"
 
 BEGIN "MainComponent" LABEL "IEModA-MainComponent" DESIGNATED 1000
 
