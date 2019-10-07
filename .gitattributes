@@ -1,15 +1,14 @@
-*.ps1 text eol=crlf
-*.ini text eol=crlf
-*.txt text eol=crlf
-*.htm[l] text eol=crlf
+*.gitignore text export-ignore eol=crlf
+*.gitattributes text export-ignore eol=crlf
 
-*.gitignore text eol=crlf export-ignore
-*.gitattributes text eol=crlf export-ignore
+*.bcs text eol=lf
 
+*.eff binary
+*.exe binary
 *.gif binary
 *.ico binary
 *.jpg binary
 *.png binary
-*.exe binary
+*.spl binary
 
-*.bcs text eol=lf
+* text eol=crlf

@@ -4,10 +4,8 @@ backup/
 temp/
 tmp/
 
-Thumbs.db
-ehthumbs.db
-
 .*
+!/.gitconfig
 !/.gitignore
 !/.gitattributes
 
@@ -20,4 +18,4 @@ ehthumbs.db
 *.tmp
 *.zip
 
-/\#ModRelease/\#ModRelease-Github-Key.txt
+Thumbs.db
