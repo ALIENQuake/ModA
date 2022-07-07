@@ -1,3 +1,3 @@
 # ModA
 
-ModPackage and ModRelease example usage
+ModPackage and ModRelease example usage.
